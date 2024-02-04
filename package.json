@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "Backend with chai aur code",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "nodemon src/index.js"
   },
   "keywords": [
     "backend",
     "chai"
   ],
   "author": "Siddhi Yadav",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
